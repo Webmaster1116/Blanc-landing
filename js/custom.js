@@ -44,7 +44,7 @@ $(document).ready(function () {
   -----------------------------------------------*/
   $(function () {
     $("#home").vegas({
-      slides: [{ src: "images/background.svg" }],
+      slides: [{ src: "/images/background.svg" }],
       timer: false,
       transition: ["zoomIn"],
       animation: ["kenburns"],
@@ -53,7 +53,7 @@ $(document).ready(function () {
 
   $(function () {
     $("#product").vegas({
-      slides: [{ src: "images/product-bg.svg" }],
+      slides: [{ src: "/images/product-bg.svg" }],
       timer: false,
       animation: ["kenburns"],
     });
@@ -61,7 +61,7 @@ $(document).ready(function () {
 
   $(function () {
     $("#gallery").vegas({
-      slides: [{ src: "images/why-bg.svg" }],
+      slides: [{ src: "/images/why-bg.svg" }],
       timer: false,
     });
   });
